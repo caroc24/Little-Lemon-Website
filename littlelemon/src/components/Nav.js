@@ -1,5 +1,11 @@
+import React, {useState} from 'react';
+
 export default function Nav(){
-    return <nav className = "nav">
+    const [menuOpen, setMenuOpen] = useState(false);
+    const toggleMenu = () =>{
+        setMenuOpen(!menuOpen);
+    }
+    return <nav className = {`navbar`}>
         <img src = "logo.jpg" height={50} alt="Little Lemon logo"/>
         <div className="navlinks">
             <ul>
@@ -11,6 +17,7 @@ export default function Nav(){
                 <li><a href="/login">Login</a></li>
             </ul>
         </div>
+
     </nav>
 }
 

@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <react>
+    <>
       <meta name="description" content="The Little Lemon restaurant proudly serves mediterranean family recipes with a modern twist." />
       <meta name="og:type" content="website"/>
       <meta name="og:image" content="logo.jpg"/>
@@ -28,7 +28,7 @@ function App() {
       <BookingForm/>
       <ConfirmedBooking/>
       <Footer/>
-    </react>
+    </>
   );
 }
 
