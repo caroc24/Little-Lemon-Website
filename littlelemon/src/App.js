@@ -21,8 +21,8 @@ function App() {
       <meta name="og:locale" content="en_US"/>
       <meta name="og:site_name" content="Little Lemon"/>
 
-      <Header/>
       <Nav/>
+      <Header/>
       <Main/>
       <Booking/>
       <BookingForm/>
