@@ -23,11 +23,6 @@ function App() {
 
       <Nav/>
       <Header/>
-      <Main/>
-      <Booking/>
-      <BookingForm/>
-      <ConfirmedBooking/>
-      <Footer/>
     </>
   );
 }
