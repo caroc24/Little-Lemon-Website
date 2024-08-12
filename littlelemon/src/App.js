@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+
+import Booking from './components/Booking';
+import BookingForm from './components/BookingForm';
+import ConfirmedBooking from './components/ConfirmedBooking';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
@@ -20,6 +24,9 @@ function App() {
       <Header/>
       <Nav/>
       <Main/>
+      <Booking/>
+      <BookingForm/>
+      <ConfirmedBooking/>
       <Footer/>
     </react>
   );
