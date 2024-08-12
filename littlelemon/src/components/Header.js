@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+{/*import { Link } from 'react-router-dom';*/}
 
 export default function Header(){
     return <header className = "header">
@@ -9,11 +9,13 @@ export default function Header(){
                 <h2>Little Lemon</h2>
                 <h3>Chicago</h3>
                 <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                <Link to="/booking"><button aria-label='On Click'>Reserve Table</button></Link>
+                {/* <Link to="/booking"> */}
+                <button aria-label='On Click'>Reserve Table</button>
+                {/* </Link> */}
             </div>
             {/* Banner Image */}
-            <div>
-                <img src="" alt=""/>
+            <div className='banner-img'>
+                <img src="banner-photo.jpg" alt="Man holding plate with bruschetta."/>
             </div>
         </section>
     </header>
