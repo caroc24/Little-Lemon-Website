@@ -1,13 +1,8 @@
 import React from 'react';
 import './App.css';
-
-import Booking from './components/Booking';
-import BookingForm from './components/BookingForm';
-import ConfirmedBooking from './components/ConfirmedBooking';
-import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
-import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -22,7 +17,7 @@ function App() {
       <meta name="og:site_name" content="Little Lemon"/>
 
       <Nav/>
-      <Header/>
+      <Main/>
     </>
   );
 }
