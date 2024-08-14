@@ -1,4 +1,5 @@
 import React from 'react';
+import recipes from '../recipes';
 
 export default function Menu(){
     return (
@@ -10,7 +11,19 @@ export default function Menu(){
 
             /* Menu Cards */
             <div>
-                
+                {
+                    recipes.map(recipe => <div key = {recipe.id}>
+                        <img src={recipe.image} alt =''/>
+                        <div>
+                            <div>
+                                <h5>{recipe.title}</h5>
+                                <p>{recipe.price}</p>
+                            </div>
+                            <p>{recipe.description}</p>
+                        </div>
+                    </div>
+                    )
+                }
             </div>
         </div>
     );
