@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useReducer, useEffect } from "react";
+import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
+import Booking from "./Booking";
+import ConfirmedBooking from "./ConfirmedBooking";
+import Header from "./Header";
 
-export default function Main(){
+const Main = () => {
 
     const seedRandom = function(seed){
         var m = 2**35 -31;
@@ -52,3 +56,4 @@ export default function Main(){
     )
 }
 
+export default Main;
