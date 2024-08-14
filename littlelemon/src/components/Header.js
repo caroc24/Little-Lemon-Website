@@ -1,7 +1,7 @@
 import React from 'react';
 {/*import { Link } from 'react-router-dom';*/}
 
-export default function Header(){
+const Header = () => {
     return <header className = "header">
         <section>
             {/* Banner Texts */}
@@ -20,3 +20,4 @@ export default function Header(){
         </section>
     </header>
 }
+export default Header;

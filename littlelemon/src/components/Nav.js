@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-export default function Nav(){
+const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () =>{
         setMenuOpen(!menuOpen);
@@ -29,3 +29,4 @@ export default function Nav(){
     </nav>
 }
 
+export default Nav;

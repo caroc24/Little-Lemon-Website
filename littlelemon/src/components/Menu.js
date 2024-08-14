@@ -1,7 +1,7 @@
 import React from 'react';
 import recipes from '../recipes';
 
-export default function Menu(){
+const Menu = () => {
     return (
         <div className = 'menu-container'>
             <div className = 'menu-header'>
@@ -28,3 +28,4 @@ export default function Menu(){
         </div>
     );
 }
+export default Menu;

@@ -1,4 +1,4 @@
-export default function Footer(){
+const Footer = () => {
     return <footer className = "footer">
         {/* <img src = "logo.jpg" alt="Little Lemon logo"/> */}
         <h4>Doormat Navigation</h4>
@@ -26,3 +26,4 @@ export default function Footer(){
         </ul>
     </footer>
 }
+export default Footer;

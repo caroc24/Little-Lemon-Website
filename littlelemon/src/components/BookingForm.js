@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BookingForm(props){
+const BookingForm = (props) => {
     const [date, setDate] = useState("");
     const [time, setTime] = useState("");
     const [guests, setGuests] = useState("");
@@ -59,3 +59,4 @@ export default function BookingForm(props){
         </header>
     </bookingform>
 }
+export default BookingForm;
